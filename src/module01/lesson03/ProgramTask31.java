@@ -8,4 +8,4 @@ public class ProgramTask31 {
         System.out.println(c);
     }
 }
-//byte = -127 ... 128 1byte = 8bit
+//Byte = from -127 to 128 byte = 8bit
