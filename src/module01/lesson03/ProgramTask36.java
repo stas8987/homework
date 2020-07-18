@@ -2,7 +2,9 @@ package module01.lesson03;
 
 public class ProgramTask36 {
     public static void main(String[] args) {
-        char a = '+', b = '!', c = '?';
+        char a = '+';
+        char b = '!';
+        char c = '?';
         System.out.print(a + "\n" + b + "\n" + c + "\n");
     }
 }

@@ -6,24 +6,24 @@ public class ProgramTask38 {
         int b = 0;
         char[] str = new char[16]; //Массив для обработки
         int count = 0;
-         System.out.println(a+" Input");
+
+
+            System.out.println(a+" Input");
+
         //Convert binary
-         b = a;
+                b = a;
          do
-         {
-          if((b%2) != 0)
-          {
-              str[count] = '1';
-          }
-          else {
-              str[count] = '0';
-          }
-          count++;
-         }
+            {
+                if((b%2) != 0){str[count] = '1';}
+                else {str[count] = '0'; }
+                count++;
+            }
          while ((b /= 2) != 0);
-         for (; count >= 0; count --)
-         System.out.print(str[count]);
-         System.out.print(" Binary \n");
+
+            for (; count >= 0; count --){System.out.print(str[count]);}
+            System.out.print(" Binary \n");
+
+
          //Convert octal
          b = a;
          count = 0;
@@ -34,17 +34,18 @@ public class ProgramTask38 {
          }
          while ((b /= 8) != 0);
          count--;
-          for (; count >=0 ; count --)
-             System.out.print(str[count]);
-             System.out.print(" Octal \n");
+          for (; count >=0 ; count --){System.out.print(str[count]);}
+          System.out.print(" Octal \n");
+
         //Convert hex value
-         count = 0;
+
          b = a;
          count = 0;
          do
          {
              a = b;
              a = a & 0x0f;
+
              if (a > 9 ){
                 switch (a){
                     case 10:
@@ -69,16 +70,17 @@ public class ProgramTask38 {
                         break;
                 }
 
-             }else {
-                 str[count] = (char)(48+a);
-             }
+             }else {str[count] = (char)(48+a);}
+
              count++;
          }
          while ((b /= 16) != 0);
+
          count--;
+
          System.out.print("0x");
-         for (; count >=0 ; count --)
-             System.out.print(str[count]);
-         System.out.print(" Hex \n");
+
+            for (; count >=0 ; count --){System.out.print(str[count]);}
+            System.out.print(" Hex \n");
     }
 }

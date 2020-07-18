@@ -4,7 +4,7 @@ public class ProgramTask35 {
     public static void main(String[] args) {
         float a = 1245.554F;
         double b = 256.3785;
-        double c = (((double)a)*b);
+        double c = ((double)a)*b;
         System.out.println(c);
     }
 }

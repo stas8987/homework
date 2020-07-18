@@ -5,7 +5,7 @@ public class ProgramTask34 {
         long a = -9223372036854775808L;
         long b = 9223372036854775807L;
         String c = "64bit";
-        System.out.println("From " + (a) + " to " + (b) + " " + c);
+        System.out.println("From " + (a) + " to " + (b) + " " + (c));
     }
 
 }
