@@ -1,0 +1,15 @@
+package module01.lesson06;
+
+import java.util.Arrays;
+
+public class ProgramTask62 {
+    public static void main(String[] args) {
+        int [] array = new int[] {1,2,3,4,5,6,7,8,9,10};
+        int [] reverse = new int[array.length];
+        int count = array.length;
+        for (int i = 0; i<array.length; i++){
+            reverse[--count]=array[i];
+        }
+        System.out.println(Arrays.toString(reverse));
+    }
+}
