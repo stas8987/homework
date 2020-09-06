@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class Test04 {
     public static void main(String[] args) {
         Person01 vanHelsing = new Person01 ("Van Helsing", 17);
-        Person01 altair = new Person01 ("Dltair", 25);
+        Person01 altair = new Person01 ("Altair", 25);
         Person01 deckartCain = new Person01 ("Deckart Cain", 33);
         Person01 sam = new Person01 ("Sam", 36);
         Person01 gannibal = new Person01 ("Gannibal", 85);
